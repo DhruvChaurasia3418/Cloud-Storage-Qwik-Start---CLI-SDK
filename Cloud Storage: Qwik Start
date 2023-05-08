@@ -16,6 +16,6 @@ gsutil ls -l gs://$techvine/ada.jpg
 
 gsutil acl ch -u AllUsers:R gs://$techvine/ada.jpg
 
-sutil acl ch -d AllUsers gs://$techvine/ada.jpg
+gsutil acl ch -d AllUsers gs://$techvine/ada.jpg
 
 gsutil rm gs://$techvine/ada.jpg
